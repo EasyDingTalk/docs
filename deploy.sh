@@ -10,6 +10,6 @@ git init
 git add -A
 git commit -m 'deploy'
 
-git push -f git@github.com:EasyDingTalk/easydingtalk.github.io.git master
+git push -f https://${GITHUB_TOKEN}@github.com/EasyDingTalk/easydingtalk.github.io.git master
 
 cd -
