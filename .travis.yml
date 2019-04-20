@@ -8,7 +8,7 @@ script:
 deploy:
   provider: pages
   skip-cleanup: true
-  local_dir: docs/.vuepress/dist
+  local_dir: 2.0/.vuepress/dist
   github-token: $GITHUB_TOKEN
   repo: EasyDingTalk/easydingtalk.github.io
   keep-history: true
