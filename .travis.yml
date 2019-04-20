@@ -1,7 +1,17 @@
 language: node_js
-sudo: required
 node_js:
   - lts/*
-branch: 2.0
+install:
+  - npm install
 script:
-  - ./deploy.sh
+  - npm run docs:build
+deploy:
+  provider: pages
+  skip-cleanup: true
+  local_dir: docs/.vuepress/dist
+  github-token: $GITHUB_TOKEN
+  repo: EasyDingTalk/easydingtalk.github.io
+  keep-history: true
+  target-branch: master
+  on:
+    branch: 2.0
