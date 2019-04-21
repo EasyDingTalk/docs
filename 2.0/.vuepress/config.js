@@ -1,6 +1,7 @@
 module.exports = {
+    base: '/2.0/',
     title: 'EasyDingTalk',
-    description: 'Just playing dd',
+    description: 'EasyDingTalk 是一个易于使用，基于 MIT 协议开发的高质量开源钉钉第三方 PHP SDK。',
 
     themeConfig: {
         nav: [
@@ -10,7 +11,7 @@ module.exports = {
         displayAllHeaders:true,
 
         sidebar: [
-            '/installation',
+            '/start',
             '/user',
             '/department',
             '/role',
