@@ -23,6 +23,7 @@ module.exports = {
             '/hr',
             '/microapp',
             '/health',
+            '/callback',
         ]
     }
 }
