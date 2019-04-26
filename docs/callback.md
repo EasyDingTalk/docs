@@ -49,3 +49,7 @@ $app->callback->delete();
 ```php
 $app->callback->failed();
 ```
+
+## 接收回调消息
+
+具体示例在[服务器事件](../server.md)中讲述

@@ -24,6 +24,7 @@ module.exports = {
             '/microapp',
             '/health',
             '/callback',
+            '/server',
         ]
     }
 }
