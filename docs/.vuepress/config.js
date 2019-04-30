@@ -25,6 +25,7 @@ module.exports = {
             '/health',
             '/callback',
             '/server',
+            '/customize',
         ]
     }
 }
