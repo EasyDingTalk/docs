@@ -2,12 +2,15 @@
 
 [[toc]]
 
+::: warning
+SDK 版本 2.0.2+
+:::
+
 ## 企业内部应用免登
 
 ```php
 $app->user->getUserByCode($code);
 ```
-
 
 ## 应用管理后台免登
 
