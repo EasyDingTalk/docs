@@ -11,19 +11,8 @@ module.exports = {
 
         sidebar: [
             '/start',
-            '/user',
-            '/department',
-            '/role',
-            '/contact',
-            '/calendar',
-            '/attendance',
-            '/checkin',
-            '/report',
-            '/blackboard',
-            '/hr',
-            '/microapp',
-            '/health',
-            '/callback',
+            '/auth',
+            '/user', '/department', '/role', '/contact', '/calendar', '/attendance', '/checkin', '/report', '/blackboard', '/hr', '/microapp', '/health', '/callback',
             '/server',
             '/customize',
         ]
