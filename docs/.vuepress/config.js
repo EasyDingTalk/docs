@@ -12,7 +12,7 @@ module.exports = {
         sidebar: [
             '/start',
             '/auth',
-            '/user', '/department', '/role', '/contact', '/calendar', '/attendance', '/checkin', '/report', '/blackboard', '/hr', '/microapp', '/health', '/callback',
+            '/user', '/department', '/process', '/role', '/contact', '/calendar', '/attendance', '/checkin', '/report', '/blackboard', '/hr', '/microapp', '/health', '/callback',
             '/server',
             '/customize',
         ]
